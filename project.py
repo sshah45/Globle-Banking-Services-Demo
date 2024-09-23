@@ -296,7 +296,7 @@ def functionality(name: str, accnum: str, pin: str):              # Provides all
                     
                     if new_balance != False:
                         print()
-                        effect6 = [[f"Amount ₹{amount:,} is Suceessfully Deposited"],[f"Account Balance: ₹{new_balance:,}"]]                #effect 6      
+                        effect6 = [[f"Amount ₹{amount:,} is Suceessfully Deposited"],[f"Account Balance: ₹{new_balance:,}"]]                     
                         print(tabulate(effect6,tablefmt="rst"))
                         action1.write_record()
                         break
@@ -333,7 +333,7 @@ def functionality(name: str, accnum: str, pin: str):              # Provides all
                         
                         else:
                             print()
-                            effect7 = [[f"Amount ₹{amount:,} is Suceessfully Debited"],[f"Account Balance: ₹{new_balance:,}"]]                #effect 7
+                            effect7 = [[f"Amount ₹{amount:,} is Suceessfully Debited"],[f"Account Balance: ₹{new_balance:,}"]]             
                             print(tabulate(effect7,tablefmt="rst"))
                             action2.write_record()
                             j = 1
