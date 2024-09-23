@@ -25,7 +25,7 @@ def main():
         
         try:
             x = int(input("\nSelect: "))
-            os.system("cls")
+            os.system("clear")
             
             
             if x == 1:
@@ -36,7 +36,7 @@ def main():
                 while found == False:
                     A = input("\nAccount Num: ")
                     P = input("Password: ")
-                    os.system("cls")
+                    os.system("clear")
                     
                     try:
                          n, a, p = login(A,P)     # 'n', 'a', 'p' is for name, account number and the pin of the loged in customer.  
@@ -281,7 +281,7 @@ def functionality(name: str, accnum: str, pin: str):              # Provides all
      while select < 5:
         try:
             y = int(input("\nSelect: "))
-            os.system("cls")
+            os.system("clear")
             
             if y == 1:
                 select = 5
