@@ -5,18 +5,18 @@ This progarm provides demo banking services.In this program user can create a ne
 
 ### Details of the design of the Software/Program :
 There are Four files in this project: 
-* (1) Data1.csv
-* (2) Data2.csv
-* (3) customer_classes.py
+* (1) input_data1.csv
+* (2) input_data2.csv
+* (3) customer_class.py
 * (4) project.py
 
-**(1) Data1.csv** : This csv file contains all the data of a new customer.
+**(1) input_data.csv** : This csv file contains all the data of a new customer.
 
 Data : Name, Contact, Acc_num, Password, and the Transaction pin number of all the customers.
 
 
 
-**(2) Data2.csv** : This csv file contains Transaction date,Transaction time, Record, Acc_num and Balance of customer's account.
+**(2) input_data.csv** : This csv file contains Transaction date,Transaction time, Record, Acc_num and Balance of customer's account.
 
 
 
